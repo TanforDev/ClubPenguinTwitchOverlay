@@ -1,0 +1,12 @@
+{
+  "user": "",
+  "oAuth": "",
+  "channel": "",
+  "maxPenguinCount": 120,
+  "joinCommandToJoin": true,
+  "penguinTimeout": 600,
+  "showBadges": true,
+  "maxSnowballCount": 10,
+  "targetFrameRate": 30,
+  "screenHeight": 1920
+}

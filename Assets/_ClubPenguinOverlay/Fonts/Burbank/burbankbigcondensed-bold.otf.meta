@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 1c207788a14dfa441b847d9aa20d9338
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Burbank Big Condensed
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 03a02fc9a98338348bc6cef3ca453f52, type: 3}
+  - {fileID: 12800000, guid: e9e41f07dfb1a0e47883935a37abc282, type: 3}
+  - {fileID: 12800000, guid: ebc313a9c39a1fa46abd5fdead047724, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
