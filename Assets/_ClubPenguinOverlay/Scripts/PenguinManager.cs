@@ -45,7 +45,7 @@ public class PenguinManager : MonoBehaviour
         entityHolder = GameObject.FindGameObjectWithTag("EntityHolder").transform;
 
         //Testing
-        if (generateFakePenguins)
+        if (generateFakePenguins && Application.isEditor)
         {
             for (int i = 0; i < fakePenguinsCount; i++)
             {

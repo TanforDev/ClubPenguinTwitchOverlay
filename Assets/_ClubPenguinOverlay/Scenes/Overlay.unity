@@ -480,7 +480,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   penguinPrefab: {fileID: 3946878805185555754, guid: 75bf8618614f04d4d8e2be66842b0a9d, type: 3}
-  generateFakePenguins: 1
+  generateFakePenguins: 0
   fakePenguinsCount: 10
 --- !u!114 &1962627769051174516
 MonoBehaviour:

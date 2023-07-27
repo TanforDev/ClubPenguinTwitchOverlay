@@ -6,6 +6,7 @@ using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.Rendering.LookDev;
 using UnityEngine.UI;
+using UnityEngine.Windows;
 
 public class Bubble : MonoBehaviour
 {
@@ -67,6 +68,10 @@ public class Bubble : MonoBehaviour
 
         if (!message.ToLower().StartsWith("!emote"))
         {
+            if(message.Length > 52)
+            {
+                message = message.Substring(0, 52);
+            }
             messageText.SetText(message);
             emoteImage.gameObject.SetActive(false);
             emoteRawImage.gameObject.SetActive(false);
